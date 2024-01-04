@@ -1,0 +1,116 @@
+.checkout-container {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+}
+
+.top-form {
+    text-align: center;
+    margin-bottom: -45px;
+    margin-top: -55px;
+}
+
+.top-form h1 {
+    color: #333;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 72px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    align-content: center;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.form-group label{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form-group input{
+    width: 290px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.checkout-form input[type="text"],
+.checkout-form input[type="email"],
+.checkout-form input[type="password"],
+.checkout-form input[type="date"] {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    gap: 40px;
+}
+
+.checkout-form{
+    width: 300px;
+}
+
+.checkout-form input[type="text"],
+.checkout-form input[type="email"],
+.checkout-form input[type="password"],
+.checkout-form input[type="date"],
+.checkout-form button[type="submit"] {
+    margin-bottom: 20px;
+}
+
+.checkout-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+label{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 300px;
+}
+
+.order-btn{
+    font-family: 'Lexend Deca', sans-serif;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.selected-container{
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.selected-container p{
+    font-size: 22px;
+}
+
+.selected-container h2{
+    font-size: 32px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.checkout-icon{
+    height: 85px;
+    width: auto;
+    margin-right: 10px;
+}

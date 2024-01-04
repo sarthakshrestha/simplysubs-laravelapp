@@ -1,0 +1,124 @@
+
+.sub-main-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sub-main-container h1 {
+    font-size: 28px;
+}
+
+.p-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.product-card-horizontal {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.product-details {
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product-description {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #666;
+}
+
+.buy-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+.subscription-select {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* Style for Edit and Delete links/buttons */
+.product-details a,
+.product-details button {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f1f1f1;
+    padding: 8px;
+    text-align: center;
+}
+
+.product-details a:hover,
+.product-details button:hover {
+    background-color: #ddd;
+}
+
+/* Style for form elements in the Add new subscription form */
+.product-card-horizontal form {
+    margin-top: 20px;
+}
+
+.product-card-horizontal label {
+    display: block;
+    margin-top: 10px;
+}
+
+.product-card-horizontal input,
+.product-card-horizontal textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.product-card-horizontal button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-card-horizontal button[type="submit"]:hover{
+    background-color: #666666;
+}
+
+

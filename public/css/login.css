@@ -1,0 +1,157 @@
+
+.container .navbar-brand {
+    font-size: 24px;
+    font-family: 'Urbanist', sans-serif;
+    color: black;
+}
+
+.nav-item .nav-link {
+    font-size: 21px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.login-logo{
+    width: 140px;
+    height: auto;
+}
+
+.container .row .justify-content-center {
+    font-family: 'DM Serif Display', serif;
+    font-size: 13px;
+}
+
+.card-login {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 14px;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(197, 197, 215, 0.71);
+    color: #1a202c;
+}
+
+.card-body {
+    padding: 15px;
+    font-size: 19px;
+
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    padding: 15px;
+}
+
+.btn-primary{
+    color: #4a5568;
+}
+
+.col-md-8.offset-md-4 button.btn-primary {
+    background-color: grey;
+    color: white;
+    border-color: black;
+    font-size: 13px;
+}
+
+.card-header{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.bg-footer {
+    background-color: #33383c;
+    padding: 50px 0 30px;
+}
+.footer-heading {
+    letter-spacing: 2px;
+}
+
+.footer-link a {
+    color: #acacac;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.footer-link a:hover {
+    color: #1bbc9b;
+}
+
+.contact-info {
+    color: #acacac;
+    font-size: 14px;
+}
+
+.footer-social-icon {
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.facebook {
+    background-color: #4e71a8;
+    color: #ffffff;
+}
+
+.twitter {
+    background-color: #55acee;
+    color: #ffffff;
+}
+
+.google {
+    background-color: #d6492f;
+    color: #ffffff;
+}
+
+.apple {
+    background-color: #424041;
+    color: #ffffff;
+}
+
+.footer-alt {
+    color: #acacac;
+}
+
+.footer-heading {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-heading:after {
+    content: '';
+    width: 25px;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid #1bbc9b;
+}
+
+.login-header{
+    font-size: 23px;
+    font-weight: bolder;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sign-logo{
+    height: 190px;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.dashboard-link{
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+    align-content: center;
+    color: white;
+}

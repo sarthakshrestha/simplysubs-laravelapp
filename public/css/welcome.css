@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+}
+
+.header {
+    margin: 0 auto 25px;
+    width: 72%;
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius: 19px;
+    box-shadow: 1px 1px 2px rgba(26, 32, 44, 0.3);
+}
+
+.header h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 67px;
+    font-family: 'Urbanist', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px rgb(92, 75, 232);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    animation: typing 1.8s steps(16);
+    margin-bottom: 50px;
+}
+
+@keyframes typing {
+    from {
+        width: 10%;
+
+    }
+    to {
+        width: 70%;
+
+    }
+}
+
+
+.header h2 {
+    font-size: 31px;
+    font-family: 'Urbanist', sans-serif;
+    color: rgba(227, 216, 216, 0.78);
+    text-align: center;
+    bottom: 45px;
+    position: relative;
+    animation: slideIn 1.3s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#main-navbar {
+    font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+#main-navbar ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#main-navbar li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#main-navbar li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    transition: color 0.3s, padding-bottom 0.3s;
+}
+
+#main-navbar li a:hover {
+    padding-bottom: 3px;
+    color: white;
+
+}
+
+#main-navbar .signin-nav {
+    margin-left: 320px;
+}
+
+.main-logo {
+    top: 50px;
+    height: 120px;
+    width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    #main-navbar {
+        position: relative;
+    }
+
+    #main-navbar ul {
+        text-align: center;
+    }
+
+    #main-navbar li {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    #main-navbar .signin-nav {
+        margin-left: 20px;
+    }
+}
+
+.subscription-container img {
+    width: 135px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.subscription-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid #1a202c;
+    border-radius: 13px;
+    width: 850px;
+    margin: 0 auto 55px;
+    padding: 14px;
+
+}
+
+.subscription-container p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+.text-box {
+    margin: 0 auto;
+    width: 45%;
+}
+
+.text-box h3 {
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.divider {
+    height: 3px;
+    background-color: #333;
+    margin: 0 auto 40px;
+    width: 65%;
+}
+
+.top-picks {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #3b2c2c;
+}
+
+.top-picks h1 {
+    font-size: 62px;
+    font-family: 'Urbanist', sans-serif;
+    width: 55%;
+    text-align: right;
+    margin-right: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(192, 168, 168);
+
+}
+
+.top-picks .banner-img {
+    height: 490px;
+    width: auto;
+    margin-left: 2%;
+    position: relative;
+}
+
+.main-container {
+    background-color: #a4acbe;
+    padding: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.column {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 42px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sub-row {
+    font-size: 21px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.sub-row a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.lower-row p {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    margin-top: 18%;
+}
+
+.banner-1-container {
+    background-color: rgba(224, 224, 255, 0.87);
+    padding: 1.5%;
+    margin-bottom: -10px;
+}
+
+.banner-1-container h1 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Fugaz One', sans-serif;
+    align-items: center;
+    font-size: 62px;
+    font-weight: bolder;
+    width: 85%;
+    color: #4e71a8;
+}
+
+.banner-1-container .banner-1-img {
+    height: 190px;
+    position: relative;
+    margin-right: -72px;
+
+}
+
+.delete-button{
+    margin: 0 auto 0 46%;
+    background: #d6492f;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.about-us-link {
+    color: white;
+    text-decoration: none;
+}
+
+.search-option {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-option form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.search-option label, .search-option select, .search-option button {
+    margin-right: 5px;
+}
+
+.banner-2-container {
+    margin: 0 auto;
+    height: 500px;
+    background: #2d3748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.banner-2-container h1 {
+    font-size: 62px;
+    font-family: Futura;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    margin: 0;
+    margin-left: 70px;
+    max-width: 70%;
+}
+
+.banner-2-img {
+    height: 390px;
+    width: auto;
+    margin-left: -100px;
+}
+

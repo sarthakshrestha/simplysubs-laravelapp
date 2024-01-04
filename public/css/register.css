@@ -1,0 +1,16 @@
+.card-body{
+    margin-top: 2%;
+}
+
+.card-header{
+    text-align: center;
+    align-content: center;
+}
+
+.register-container{
+    background-color: rgba(197, 197, 215, 0.71);
+}
+
+.btn-primary{
+    font-size: 23px;
+}
