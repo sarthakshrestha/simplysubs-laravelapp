@@ -41,20 +41,6 @@
                     </svg>
 
                 </a></li>
-
-{{--            @if(auth()->check())--}}
-{{--                @if(auth()->user()->isAdmin())--}}
-{{--                    <div class="dashboard-redirect">--}}
-{{--                        <a href="{{ route('admin.dashboard') }}">Go to Admin Dashboard</a>--}}
-{{--                    </div>--}}
-{{--                @else--}}
-{{--                    <div class="dashboard-redirect">--}}
-{{--                        <a href="{{ route('dashboard') }}">Go to User Dashboard</a>--}}
-{{--                    </div>--}}
-{{--                @endif--}}
-{{--            @endif--}}
-
-
             @auth
                 <li class="signin-nav"><a href="/dashboard">Dashboard
                         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">

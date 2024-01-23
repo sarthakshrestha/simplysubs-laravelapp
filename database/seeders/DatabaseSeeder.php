@@ -28,5 +28,7 @@ class DatabaseSeeder extends Seeder
             'is_admin' => true,
             'email_verified_at' => now()
         ]);
+
+        \Database\Factories\UserFactory::new()->count(55)->create();
     }
 }

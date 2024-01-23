@@ -18,7 +18,7 @@ Route::post('/add-product', [\App\Http\Controllers\SubscriptionController::class
 
 Route::get('/subs', [SubscriptionController::class, 'index'])->name('subscriptions.index');
 
-Route::get('/about-us', function (){
+Route::get('/about-us', function () {
     return view('aboutus');
 });
 
@@ -31,11 +31,9 @@ Route::get('/updatesub/{id}', function ($id) {
 
 Route::get('/search', [SearchController::class, 'search'])->name('search');
 Route::get('/sort', [SearchController::class, 'sort'])->name('sort');
-
-
 Route::get('/checkout', [CheckoutController::class, 'showCheckoutForm'])->name('checkout.form')->middleware('auth');
 
-Route::any('/checkout/order-complete', function(Request $request){
+Route::any('/checkout/order-complete', function (Request $request) {
     $id = $request->subscription_id;
     $sub = \App\Models\Subscription::findById($id);
     return view('checkoutform', compact('sub'));
@@ -43,15 +41,10 @@ Route::any('/checkout/order-complete', function(Request $request){
 
 Route::post('/checkout/place-order', [CheckoutController::class, 'placeOrder'])->name('place.order');
 Route::post('/checkout', [CheckoutController::class, 'processCheckout']);
-
 Route::post('/checkout/paypal', [PayPalController::class, 'paypal'])->name('paypal');
 Route::get('/checkout/success', [PayPalController::class, 'success'])->name('success');
 Route::post('/checkout/cancel', [PayPalController::class, 'paypal'])->name('cancel');
-
-
-
 Route::put('/updatesub/{id}', [AdminController::class, 'updateSubscription'])->name('admin.subscriptions.update-subscription');
-
 
 
 // Redirect to user dashboard
@@ -93,4 +86,4 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/updatesub/{id}', [SubscriptionController::class, 'showUpdateForm'])->name('updatesub');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
